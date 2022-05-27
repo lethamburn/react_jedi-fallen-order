@@ -3,8 +3,15 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  font-family: "Gothic", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--paragraph);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Gothic", sans-serif;
 }
 h1 {
   font-size: 3em;
