@@ -12,7 +12,6 @@ const SplashScreen = () => {
   return (
     <main>
       <section className="splashScreen">
-      
         <img src="./images/logo.png" alt="Jedi Fallen Order Logo" className={animation}/>
       </section>
     </main>

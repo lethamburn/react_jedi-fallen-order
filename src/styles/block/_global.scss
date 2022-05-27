@@ -3,8 +3,11 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  font-family: "Roboto", sans-serif;
+  font-family: "Proxima", sans-serif;
   color: var(--paragraph);
+  outline: 4px double var(--detail);
+  outline-offset: -4px;
+  min-height: 100vh;
 }
 
 h1,
