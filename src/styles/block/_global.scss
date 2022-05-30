@@ -16,7 +16,7 @@ body {
   }
 
   &::-webkit-scrollbar-track {
-    background: var(--paragraph)
+    background: var(--paragraph);
   }
 
   &::-webkit-scrollbar-thumb {
@@ -45,4 +45,14 @@ h4 {
 }
 p {
   font-size: 1em;
+}
+
+.container {
+  #video {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 40%
+  }
 }
