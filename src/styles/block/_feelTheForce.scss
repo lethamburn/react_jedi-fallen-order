@@ -1,0 +1,41 @@
+.feelTheForce {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  height: 100vh;
+
+  h2 {
+    font-size: 5rem;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-family: "Aurubesh", sans-serif;
+    color: var(--detail);
+  }
+
+  p {
+    padding: 0 30%;
+    text-align: justify;
+    line-height: 25px;
+    color: var(--detail);
+  }
+
+  img{
+      width: 700px;
+      height: auto;
+  }
+  .scroll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: "Gothic", serif;
+    gap: 10px;
+    & > img {
+      width: 35px;
+    }
+  }
+}

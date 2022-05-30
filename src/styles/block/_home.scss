@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 90px;
+  gap: 30px;
   height: 100vh;
 
   &-header {
@@ -40,7 +40,7 @@
     flex-direction: column;
     align-items: center;
     text-transform: uppercase;
-    font-family: "Gothic", sans-serif;
+    font-family: "Gothic", serif;
     gap: 10px;
     & > img {
       width: 35px;

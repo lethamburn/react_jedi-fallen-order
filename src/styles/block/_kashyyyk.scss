@@ -1,0 +1,66 @@
+.kashyyyk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../../public/images/kashyyyk.jpg");
+  background-position: center;
+  background-size: cover;
+
+  h2 {
+    font-size: 5rem;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-family: "Aurubesh", sans-serif;
+    color: var(--detail);
+  }
+
+  p {
+    padding: 0 30%;
+    text-align: justify;
+    line-height: 25px;
+    color: var(--detail);
+  }
+  img {
+    width: 700px;
+    height: auto;
+  }
+  .scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: "Gothic", serif;
+    gap: 10px;
+    & > img {
+      width: 35px;
+    }
+  }
+  .description {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50%;
+    overflow: hidden;
+
+    h3 {
+      color: var(--detail);
+      text-transform: uppercase;
+      font-family: "Gothic", serif;
+      text-align: left;
+      padding: 0 40px;
+    }
+
+    p {
+      color: var(--detail);
+      text-align: right;
+      padding: 0 40px;
+    }
+  }
+}

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SplashScreen from "./layout/SplashScreen";
-import Home from "./pages/Home/Home";
+import Container from "./pages/Container/Container";
 
 const App = () => {
   const [loaded, setLoaded] = useState(false);
@@ -15,7 +15,7 @@ const App = () => {
     <BrowserRouter>
       {loaded ? (
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Container />} />
         </Routes>
       ) : (
         <SplashScreen />

@@ -2,11 +2,12 @@ import React from "react";
 import Button from "../../layout/Button";
 import Pulse from "../../layout/Pulse";
 import { Fade } from "react-awesome-reveal";
+import {Link} from 'react-scroll';
 
 const Home = () => {
   return (
-      <main className="home">
-        <Fade delay={500} cascade>
+    <main className="home">
+      <Fade delay={500} cascade>
         <section className="home-header">
           <img src="./images/logo.png" alt="Jedi Fallen Order Logo" />
         </section>
@@ -19,14 +20,15 @@ const Home = () => {
           </p>
         </section>
         <section className="home-button">
-          <Button text="Explore the journey" />
+          <Link to="feelTheForce" spy={true} smooth={true}>
+            <Button text="Explore the journey" />
+          </Link>
         </section>
         <section className="home-scroll">
-          <p>Scroll down</p>
           <Pulse />
         </section>
-    </Fade>
-      </main>
+      </Fade>
+    </main>
   );
 };
 

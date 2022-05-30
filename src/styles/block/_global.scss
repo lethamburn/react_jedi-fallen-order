@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url("../../../public/images/background.jpg");
   background-position: center;
@@ -5,16 +9,27 @@ body {
   background-attachment: fixed;
   font-family: "Proxima", sans-serif;
   color: var(--paragraph);
-  outline: 4px double var(--detail);
-  outline-offset: -4px;
   min-height: 100vh;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--paragraph)
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--button);
+    border: 3px solid var(--button);
+  }
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: "Gothic", sans-serif;
+  font-family: "Gothic", serif;
 }
 h1 {
   font-size: 3em;

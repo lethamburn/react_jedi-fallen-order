@@ -1,0 +1,19 @@
+.locations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+    height: 100vh;
+
+    h2 {
+        font-size: 5rem;
+        text-transform: uppercase;
+      }
+    
+      h3 {
+        font-family: "Aurubesh", sans-serif;
+        color: var(--detail);
+      }
+}
