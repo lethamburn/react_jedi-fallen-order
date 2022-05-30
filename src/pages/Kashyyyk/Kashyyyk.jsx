@@ -6,6 +6,7 @@ import Pulse from "../../layout/Pulse";
 
 const Kashyyyk = () => {
   return (
+    <Fade delay={300}>
     <section id="kashyyyk" className="kashyyyk">
       <Fade cascade>
         <h2>Kashyyyk</h2>
@@ -20,6 +21,7 @@ const Kashyyyk = () => {
         </article>
       </Fade>
     </section>
+    </Fade>
   );
 };
 

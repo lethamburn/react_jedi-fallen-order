@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-carousel-minimal";
 import Pulse from "../../layout/Pulse";
-
+import { Fade } from "react-awesome-reveal";
 const Locations = () => {
   const data = [
     {
@@ -52,6 +52,7 @@ const Locations = () => {
     fontWeight: "bold",
   };
   return (
+    <Fade delay={300}>
     <section className="locations" id="locations">
     <article>
         <h2>Locations</h2>
@@ -64,7 +65,7 @@ const Locations = () => {
           width="800px"
           height="400px"
           captionStyle={captionStyle}
-          radius="10px"
+          radius="30px"
           slideNumber={false}
           slideNumberStyle={slideNumberStyle}
           captionPosition="bottom"
@@ -80,7 +81,7 @@ const Locations = () => {
             textAlign: "center",
             maxWidth: "850px",
             maxHeight: "500px",
-            margin: "40px auto",
+            margin: "40px auto"
           }}
         />
       </article>
@@ -88,6 +89,7 @@ const Locations = () => {
           <Pulse />
         </article>
     </section>
+    </Fade>
   );
 };
 

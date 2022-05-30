@@ -6,6 +6,7 @@ import Pulse from "../../layout/Pulse";
 
 const GalaxyAwaits = () => {
   return (
+    <Fade delay={500}>
     <section id="galaxyAwaits" className="galaxyAwaits">
       <Fade cascade>
         <h2>The Galaxy Awaits</h2>
@@ -30,6 +31,7 @@ const GalaxyAwaits = () => {
         </article>
       </Fade>
     </section>
+    </Fade>
   );
 };
 

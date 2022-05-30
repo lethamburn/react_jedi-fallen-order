@@ -6,6 +6,7 @@ import {Link} from 'react-scroll';
 
 const Home = () => {
   return (
+    <Fade>
     <main className="home">
       <Fade delay={500} cascade>
         <section className="home-header">
@@ -29,6 +30,7 @@ const Home = () => {
         </section>
       </Fade>
     </main>
+    </Fade>
   );
 };
 

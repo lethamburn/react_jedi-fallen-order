@@ -6,6 +6,7 @@ import Pulse from "../../layout/Pulse";
 
 const Force = () => {
   return (
+    <Fade delay={300}>
     <section id="feelTheForce" className="feelTheForce">
       <Fade cascade>
         <h2>Feel the force</h2>
@@ -26,6 +27,7 @@ const Force = () => {
         </article>
       </Fade>
     </section>
+    </Fade>
   );
 };
 
