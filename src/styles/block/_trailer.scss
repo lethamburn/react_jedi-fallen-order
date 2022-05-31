@@ -1,0 +1,17 @@
+.trailer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../../public/images/trailerBackground.jpg");
+  background-position: center;
+  background-size: cover;
+
+
+ #trailerVideo {
+    width: 800px;
+    border-radius: 20px;
+  }
+}

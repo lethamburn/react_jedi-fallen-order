@@ -1,7 +1,8 @@
 import React from "react";
 import { Carousel } from "react-carousel-minimal";
-import Pulse from "../../layout/Pulse";
+import Button from "../../layout/Button";
 import { Fade } from "react-awesome-reveal";
+import { Link } from "react-scroll/modules";
 const Locations = () => {
   const data = [
     {
@@ -79,8 +80,10 @@ const Locations = () => {
               }}
             />
           </article>
-          <article className="scroll">
-            <Pulse />
+          <article className="button">
+            <Link to="calKestis" spy={true} smooth={true}>
+              <Button text="Meet Cal Kestis" />
+            </Link>
           </article>
         </Fade>
       </section>

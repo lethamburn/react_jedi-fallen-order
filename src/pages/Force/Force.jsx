@@ -13,7 +13,7 @@ const Force = () => {
         <h3>Feel the force</h3>
         <p>
           Hone ligthsaber combat forms to refine striking, blocking, and dodging
-          your enemies. Use your Jedi weapon and the Force to take on any
+          your enemies. Use your Jedi weapon and the <strong>Force</strong> to take on any
           challenge.
         </p>
         <img src="./images/lightsaber.png" alt="Cal Kestis Lightsaber" />

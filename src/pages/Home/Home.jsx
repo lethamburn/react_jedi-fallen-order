@@ -15,7 +15,7 @@ const Home = () => {
         <section className="home-hero">
           <h2>Your Jedi journey</h2>
           <p>
-            Aided by a former Jedi Knight, a prickly pilot and a fearless droid
+            Aided by a former <strong>Jedi Knight</strong>, a prickly pilot and a fearless droid
             companion, you must escape the sinister machinations of the Imperial
             forces in this story driven adventure.
           </p>

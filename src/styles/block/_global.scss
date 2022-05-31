@@ -47,6 +47,10 @@ p {
   font-size: 1em;
 }
 
+strong{
+  color: var(--button);
+}
+
 .container {
   #video {
     position: fixed;

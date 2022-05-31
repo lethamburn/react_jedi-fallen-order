@@ -6,7 +6,7 @@ import Pulse from "../../layout/Pulse";
 
 const GalaxyAwaits = () => {
   return (
-    <Fade delay={500}>
+    <Fade delay={300}>
     <section id="galaxyAwaits" className="galaxyAwaits">
       <Fade cascade>
         <h2>The Galaxy Awaits</h2>
@@ -16,8 +16,8 @@ const GalaxyAwaits = () => {
           decide when and where you want to go next.
         </p>
         <article className="button">
-          <Link to="kashyyyk" spy={true} smooth={true}>
-            <Button text="Enter Kashyyyk"/>
+          <Link to="poster" spy={true} smooth={true}>
+            <Button text="Find the light"/>
           </Link>
         </article>
         <article className="description">
