@@ -10,7 +10,8 @@ const Poster = () => {
       <section id="poster" className="poster">
         <Fade cascade>
           <h2>Find the light</h2>
-          <h3>Find the light</h3>
+          <span></span>
+          <span></span>
           <article className="button">
             <Link to="locations" spy={true} smooth={true}>
               <Button text="Discover the full galaxy" />
