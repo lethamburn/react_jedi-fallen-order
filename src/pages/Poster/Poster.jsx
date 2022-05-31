@@ -16,9 +16,6 @@ const Poster = () => {
               <Button text="Discover the full galaxy" />
             </Link>
           </article>
-          <article className="scroll">
-            <Pulse />
-          </article>
         </Fade>
       </section>
     </Fade>
